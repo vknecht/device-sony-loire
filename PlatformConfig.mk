@@ -43,6 +43,8 @@ BOARD_RAMDISK_OFFSET     := 0x02000000
 
 BOARD_KERNEL_CMDLINE += androidboot.bootdevice=7824900.sdhci
 
+BOARD_KERNEL_CMDLINE += selinux=0
+
 # Serial console
 #BOARD_KERNEL_CMDLINE += earlycon=msm_serial_dm,0x7af0000
 
